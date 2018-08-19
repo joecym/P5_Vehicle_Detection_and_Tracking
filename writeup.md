@@ -58,7 +58,7 @@ After exploring different color spaces and parameters (`orientations`, `pixels_p
 
 #### 1. Describe how (and identify where in your code) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
 
-In cell 6, I used a sliding image search based on a single scale, using the default settings from the lessons. This method found HOG features on each window. These results gave me a good indication that I was on the right track. 
+In cell 8, I used a sliding image search based on a single scale, using the default settings from the lessons. This method found HOG features on each window. These results gave me a good indication that I was on the right track. 
 ![alt text][image4]
 
 Next, I implemented a sliding image search after performing the HOG feature extraction only once to save time using the `find_cars` function. 
